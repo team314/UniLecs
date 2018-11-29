@@ -1,0 +1,5 @@
+def f(N):
+    return N/1000 == (N%10)*10+(N/10)%10
+    
+print f(18281)
+print f(17281)
